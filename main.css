@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,700&display=swap');
+
+body {
+    font-family: 'Source Code Pro';
+    font-weight: 300;
+    padding: 5% 8%;
+}
+
+a {
+    color: #405663;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.heading h2 {
+    font-weight: 500;
+}
+
+.title h1 {
+    font-weight: 300;
+    background-image: url(pyrat.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 50px;
+    margin-left: -50px;
+}
+
+.quiet {
+    color: #A0B6C3;
+    font-size: medium;
+}
+
+#bodyContainer {
+    max-width: 50%;
+}
