@@ -1,5 +1,5 @@
 
-$.getJSON("https://api.github.com/orgs/PyratLabs/repos", function(data) {
+$.getJSON("https://api.github.com/orgs/PyratLabs/repos?per_page=50", function(data) {
     var items = [];
     $.each(data, function(key, val) {
       //if (val.name.search("ansible-role") != "-1") {
